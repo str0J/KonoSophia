@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.gestionController">
+   <children>
+      <ImageView fitHeight="370.0" fitWidth="308.0" layoutX="291.0" layoutY="1.0">
+         <image>
+            <Image url="@../image/education-cours-formation-ligne-enseignement-distance_1200-403.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="400.0" fitWidth="293.0" layoutY="-2.0">
+         <image>
+            <Image url="@../image/formation-professionnelle-education-tutoriels-cours-commerce_1200-425.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn_cours" layoutX="76.0" layoutY="337.0" mnemonicParsing="false" onAction="#press_cours" prefHeight="34.0" prefWidth="156.0" text="Gestionnaire des cours">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_etud" layoutX="360.0" layoutY="337.0" mnemonicParsing="false" onAction="#press_etud" prefHeight="34.0" prefWidth="171.0" text="Gestionnaire des étudiants">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="89.0" fitWidth="108.0" layoutX="246.0" layoutY="309.0">
+         <image>
+            <Image url="@../image/Yrwe.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="87.0" layoutY="-2.0">
+         <image>
+            <Image url="@../image/icon.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn_logout" layoutX="531.0" layoutY="25.0" mnemonicParsing="false" onAction="#PressLogout" text="Logout" />
+   </children>
+</AnchorPane>
